@@ -1,0 +1,51 @@
+header {
+    background-color: lightgray;
+    height: 100px;
+    position: relative;
+}
+
+.top-square {
+    position: absolute;
+    background-color: #4792ac;
+    height: 50%;
+    width: 3%;
+    left: 1%;
+    top: 25%;
+}
+
+section {
+    margin: 2%;
+}
+
+p {
+    height: 200px;
+}
+
+.blue {
+    background-color: #4792ac;
+}
+.teal {
+    background-color: rgb(47, 189, 189);
+}
+.light-green {
+    background-color: lightgreen
+}
+.yellow {
+    background-color: yellow;
+}
+
+
+
+.question {
+   background-color: black;
+    position: fixed;
+    border-radius: 50%;
+    z-index: 1;
+    height: 50px;
+    right: 10px;
+    bottom: 10px;
+    width: 50px;
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}

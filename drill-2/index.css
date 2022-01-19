@@ -1,0 +1,74 @@
+section {
+    height: 280px;
+    margin: 30px;
+    box-sizing: border-box;
+}
+
+.top {
+    border: 10px solid black;
+    position: relative;
+}
+
+
+.top-box-left {
+    background-color: purple;
+    position: absolute;
+    top: 30%;
+    left: 1%;
+    height: 63%;
+    width: 3%;
+}
+
+.top-box-middle {
+    position: absolute;
+    background-color: green;
+    top: 5%;
+    left: 7%;
+    height: 90%;
+    width: 50%;
+
+}
+
+.top-box-right {
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 50%;
+    top: 5%;
+    left: 60%;
+    height: 90%;
+    width: 15%;
+    
+}
+.middle {
+    border: 10px dotted black;
+
+}
+
+.middle-box {
+    background-color: rgb(243, 231, 192);
+    height: 60%;
+    margin: 2.5%;
+    box-shadow: 10px 10px 10px black;
+}
+
+.bottom {
+    margin: auto;
+    border: lightgray;
+    border-style: outset;
+    width: 33%;
+}
+
+
+.hello{
+    text-align: center;
+    font-weight:bold;
+    vertical-align: middle;
+    color: darkblue;
+    margin-top: 15%;
+    font-size: xx-large;
+    letter-spacing: 10px;
+}
+
+.friends {
+    margin-top: 0%;
+}

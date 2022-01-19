@@ -1,0 +1,33 @@
+header {
+    height: 100px;
+    background-color: rgb(82, 82, 82);
+}
+
+footer {
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    
+}
+
+section {
+    background-color:rgb(161, 161, 161);
+    position: fixed;
+
+}
+
+.left {
+    height: 100vh;
+    z-index: 1;
+    width: 150px;
+}
+
+.right {
+    right: 0px;
+    height: 100vh;
+    z-index: 1;
+    width: 150px;
+}
